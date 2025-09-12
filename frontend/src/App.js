@@ -7,7 +7,7 @@ export default function App() {
 
   return (
     <div>
-      <h1>Kanba</h1>
+     
       <input value={boardId} onChange={(e) => setBoardId(e.target.value)} placeholder="Enter Board ID" />
       {boardId && <Board boardId={boardId} user={user} />}
     </div>
