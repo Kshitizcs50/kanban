@@ -8,7 +8,7 @@ export default function App() {
   return (
     <div>
      
-      <input value={boardId} onChange={(e) => setBoardId(e.target.value)} placeholder="Enter Board ID" />
+      <input value={boardId} onChange={(e) => setBoardId(e.target.value)} placeholder="Enter Board" />
       {boardId && <Board boardId={boardId} user={user} />}
     </div>
   );
